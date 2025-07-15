@@ -15,6 +15,7 @@ DEFINE-DEFAULT filetype application/postscript
 	GROUP job-attributes-tag
 	ATTR integer copies $copies
 	ATTR keyword media iso_a4_210x297mm
+	ATTR keyword sides two-sided-long-edge
 
 	FILE $filename
 
